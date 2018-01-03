@@ -1,20 +1,13 @@
 package com.homelane.notepad.utils;
 
 import android.content.Context;
-import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.ColorMatrix;
 import android.graphics.ColorMatrixColorFilter;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
-import android.widget.ImageView;
 
-/**
- * Created by Jayesh on 1/3/2018.
- */
-
-public class CustomImageView extends ImageView {
+public class CustomImageView extends android.support.v7.widget.AppCompatImageView {
 
     private static final String TAG = CustomImageView.class.getSimpleName();
     boolean touchOn;
