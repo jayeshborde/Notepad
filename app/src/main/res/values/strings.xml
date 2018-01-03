@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prompt_title">Enter Title</string>
+    <string name="prompt_text">Enter Text</string>
+    <string name="save_note">Save</string>
+    <string name="error_field_required">Field is required</string>
+    <string name="action_delete">Delete</string>
+
+    <string-array name="filter">
+        <item>Sort By Date</item>
+        <item>Sort By Title</item>
+        <item>With Images</item>
+    </string-array>
+</resources>

@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.homelane.notepad.fragments.NewNoteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/email_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_title"
+                android:inputType="textMultiLine"
+                android:maxLines="4"
+                android:singleLine="false"
+                android:scrollbars="vertical"/>
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_text"
+                android:inputType="textMultiLine"
+                android:singleLine="false"
+                android:maxLines="20"
+                android:scrollbars="vertical"/>
+
+        </android.support.design.widget.TextInputLayout>
+        <ImageView android:id="@+id/select_image"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:src="@drawable/ic_insert_photo_black"
+            android:contentDescription="@string/app_name"
+            />
+        <Button
+            android:id="@+id/save_note"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/save_note"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

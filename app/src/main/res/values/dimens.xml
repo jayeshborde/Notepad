@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="note_title">16sp</dimen>
+    <dimen name="note_date">12sp</dimen>
+    <dimen name="event_date_padding">10dp</dimen>
+</resources>
